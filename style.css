@@ -1,20 +1,26 @@
-body {
-  margin: 20% auto;
-  background-color: silver;
-}
+
 
 form {
   display: grid;
   grid-template-columns: 200px, 200px, 200px;
   grid-template-rows: 100px, 100px, 100px, 100px, 100px, 100px;
-  background-color: blue;
+  background-color: rgb(255, 196, 0);
   width: 75%;
   width: 600px;
   height: 680px;
   padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   
 }
 
+button { 
+  border-radius: 10px;
+}
+
+input {
+  width: 75%;
+  text-align: end;
+}
 
 .input {
   
@@ -24,17 +30,18 @@ form {
   align-items: stretch;
   grid-column: 1 / span 3;
   grid-row: 1 / 3;
-  color: white;
-  
+ 
+    
 }
  .firstnumber {
-     background-color: slateblue;
      height: 70px;
      padding-top:30px;   
-
+     background-color: white;
+     border: 1px solid black;
  }
   .secondnumber {
-   background-color: blueviolet;
+    background-color: white;
+    border: 1px solid black;
    height: 70px;
   padding-top:30px; 
    }
@@ -85,6 +92,7 @@ form {
     grid-column: 1 / span 3;
     text-align: center;
     height: 60px;
-    font-size: 50px;
+    font-size: 30px;
     background-color: white;
+    border: 1px solid black;
   }
